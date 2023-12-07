@@ -97,9 +97,61 @@ body{
 
 
 
+.div4{
+    width: 300px;
+    height: 200px;
+    background: lightpink;
+    border: 10px solid black;
+    margin: 10px auto;
+    /* cursor: alias; */
+    /* cursor: all-scroll; */
+    /* cursor: auto;   (Need to question)*/
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: context-menu;  (Need to question)*/  
+    /* cursor: copy; */
+    /* cursor: crosshair; */
+    /* cursor: default;   (Need to question) */
+    /* cursor: e-resize;    (Need to question)*/
+    /* cursor: ew-resize;   (Need to question) */
+    /* cursor: grab; */
+    /* cursor: grabbing; */
+    /* cursor: help; */
+    /* cursor: move; */
+    /* cursor: n-resize; */
+    /* cursor: ne-resize; */
+    /* cursor: nesw-resize; */
+    /* cursor: pointer; */
+    /* cursor: progress; */
+    /* cursor: row-resize; */
+    /* cursor: no-drop;   (Need to question [same to same] )*/
+    /* cursor: none; */
+    /* cursor: not-allowed;  (Need to question [same to same] ) */
+    /* cursor: ns-resize; */
+    /* cursor: nw-resize; */
+    /* cursor: text; */
+    /* cursor: vertical-text; */
+    /* cursor: w-resize; */
+    /* cursor: wait; */
+    /* cursor: zoom-in; */
+    /* cursor: zoom-out; */
+    /* cursor: unset; */
+}
 
 
-
+.div5{
+    width: 90%;
+    height: 500px;
+    border: 2px solid green;
+    margin: 50px auto;
+    display: grid;
+    /* grid-template-columns: 100px; */
+    grid-template-rows: 100px;
+    grid-gap: 10px 100px 100px;
+}
+.grid-item{
+    background: grey;
+}
 
 
 
